@@ -43,6 +43,7 @@ with open("data/sl-transport-sites.json", "r", encoding="utf-8") as file:
                     name = alias
 
         previous_national_ids = []
+        site_ids_already_linked = []
 
         for area_id in site["stop_areas"]:
             # skip if its not connected to any national id
@@ -50,13 +51,11 @@ with open("data/sl-transport-sites.json", "r", encoding="utf-8") as file:
 
             national_id = national_ids_by_area_id[area_id]
 
-            if national_id not in stops_by_national_id:
+            if national_id not in stops_by_national_id or stops_by_national_id[national_id]["site_id"] in site_ids_already_linked:
+                # if the site occupying this national id is already linked to another national id, override it
                 stops_by_national_id[national_id] = {"site_id": site["id"], "name": name}
             else:
-                if len(name) < len(stops_by_national_id[national_id]["name"]):
-                    # if duplicate, use the one with shortest name
-                    stops_by_national_id[national_id] = {"site_id": site["id"], "name": name}
-
+                site_ids_already_linked.append(stops_by_national_id[national_id]["site_id"])
                 #print("sl sites", site["id"], stops_by_national_id[national_id], "have same national id", national_id)
                 sl_sites_with_duplicate_national_id += 1
 
