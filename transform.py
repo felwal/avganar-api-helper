@@ -63,8 +63,8 @@ for national_id, site_id in site_ids_by_national_id.items():
     stop = {"national_id": national_id, "site_id": site_id}
     stops.append(stop)
 
-    with open(f"docs/sl-sites/{national_id}.json", "w", encoding="utf-8") as file:
+    with open(f"docs/sl-national-stops/{national_id}.json", "w", encoding="utf-8") as file:
         file.write(json.dumps(stop, indent=2))
 
-with open("docs/sl-sites.json", "w", encoding="utf-8") as file:
+with open("docs/sl-national-stops.json", "w", encoding="utf-8") as file:
     file.write(json.dumps(stops, indent=2))

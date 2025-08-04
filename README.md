@@ -4,15 +4,14 @@ SL discontinued their [Nearby Stops 2](https://github.com/trafiklab/trafiklab.se
 
 Use [ResRobot 2.1 Nearby Stops](https://www.trafiklab.se/api/our-apis/resrobot-v21/nearby-stops) to get `national_id` ("rikshållplats"), then transform to SL "site id":
 
-`api.avganar.felixwallin.se/sl-sites/<national_id>.json`
+`api.avganar.felixwallin.se/sl-national-stops/<national_id>.json`
 
 Example response:
 
 ```json
 {
   "national_id": 740021013,
-  "sl_site_id": 9117,
-  "name": "Odenplan"
+  "site_id": 9117
 }
 ```
 
