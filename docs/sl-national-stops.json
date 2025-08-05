@@ -16,20 +16,20 @@
     "name": "Sippvägen"
   },
   "740021659": {
-    "site_id": 301,
-    "name": "Strömkajen"
+    "site_id": 9340,
+    "name": "Kungsträdgården (tunnelbana)"
   },
   "740045461": {
     "site_id": 1023,
     "name": "Karl XII:s torg"
   },
   "740020691": {
-    "site_id": 9340,
-    "name": "Kungsträdgården (tunnelbana)"
+    "site_id": 301,
+    "name": "Strömkajen"
   },
   "740014648": {
-    "site_id": 1406,
-    "name": "Liljevalchs/Gröna Lund"
+    "site_id": 312,
+    "name": "Allmänna gränd"
   },
   "740015538": {
     "site_id": 314,
@@ -296,11 +296,11 @@
     "name": "Sticklinge brygga"
   },
   "740023966": {
-    "site_id": 955,
+    "site_id": 9239,
     "name": "Gåshaga brygga"
   },
   "740066093": {
-    "site_id": 9239,
+    "site_id": 955,
     "name": "Gåshaga brygga"
   },
   "740034748": {
@@ -316,12 +316,12 @@
     "name": "Ekudden"
   },
   "740020749": {
-    "site_id": 1000,
-    "name": "Sergels torg"
+    "site_id": 9002,
+    "name": "Cityterminalen"
   },
   "740035997": {
-    "site_id": 9001,
-    "name": "Tcentralen"
+    "site_id": 1080,
+    "name": "Stockholm"
   },
   "740074606": {
     "site_id": 1000,
@@ -332,28 +332,28 @@
     "name": "Frihamnen"
   },
   "740000001": {
-    "site_id": 1002,
-    "name": "Centralen"
+    "site_id": 9002,
+    "name": "Cityterminalen"
   },
   "740023844": {
-    "site_id": 1080,
-    "name": "Stockholm"
+    "site_id": 9002,
+    "name": "Cityterminalen"
   },
   "740004383": {
     "site_id": 9000,
     "name": "Stockholms central"
   },
   "740069350": {
-    "site_id": 9000,
-    "name": "Stockholms central"
+    "site_id": 1003,
+    "name": "Vattugatan"
   },
   "740000622": {
     "site_id": 9001,
     "name": "Tcentralen"
   },
   "740001617": {
-    "site_id": 9001,
-    "name": "Tcentralen"
+    "site_id": 1002,
+    "name": "Centralen"
   },
   "740046083": {
     "site_id": 1004,
@@ -388,12 +388,12 @@
     "name": "Kungsträdgården (Hamng/Kungsträdgårdsg)"
   },
   "740073532": {
-    "site_id": 1016,
-    "name": "Kungsträdgården (Hamng/Kungsträdgårdsg)"
+    "site_id": 9340,
+    "name": "Kungsträdgården (tunnelbana)"
   },
   "740021667": {
-    "site_id": 9119,
-    "name": "Hötorget"
+    "site_id": 1019,
+    "name": "Kungsgatan / Sveavägen"
   },
   "740046019": {
     "site_id": 1021,
@@ -428,8 +428,8 @@
     "name": "Stadsbiblioteket"
   },
   "740021666": {
-    "site_id": 9118,
-    "name": "Rådmansgatan"
+    "site_id": 1032,
+    "name": "Rådmansgatan (Sveavägen)"
   },
   "740046130": {
     "site_id": 1031,
@@ -540,8 +540,8 @@
     "name": "Odenplan"
   },
   "740001618": {
-    "site_id": 9117,
-    "name": "Odenplan"
+    "site_id": 1079,
+    "name": "Stockholm Odenplan"
   },
   "740011606": {
     "site_id": 9600,
@@ -612,7 +612,7 @@
     "name": "Universitetsvägen"
   },
   "740046034": {
-    "site_id": 1100,
+    "site_id": 1101,
     "name": "Strandvägen"
   },
   "740046036": {
@@ -640,16 +640,16 @@
     "name": "Styrmansgatan"
   },
   "740021647": {
-    "site_id": 1109,
-    "name": "Karlavägen"
+    "site_id": 1125,
+    "name": "Nybrogatan"
   },
   "740045963": {
     "site_id": 9205,
     "name": "Stadion"
   },
   "740046033": {
-    "site_id": 1125,
-    "name": "Nybrogatan"
+    "site_id": 1109,
+    "name": "Karlavägen"
   },
   "740045992": {
     "site_id": 1110,
@@ -672,8 +672,8 @@
     "name": "Karlaplan"
   },
   "740045967": {
-    "site_id": 9222,
-    "name": "Karlaplan"
+    "site_id": 1115,
+    "name": "Värtavägen"
   },
   "740045966": {
     "site_id": 1116,
@@ -932,24 +932,24 @@
     "name": "Inedalsgatan"
   },
   "740045955": {
-    "site_id": 1216,
-    "name": "Fleminggatan"
-  },
-  "740046139": {
     "site_id": 1220,
     "name": "Scheelegatan"
+  },
+  "740046139": {
+    "site_id": 1216,
+    "name": "Fleminggatan"
   },
   "740045981": {
     "site_id": 1217,
     "name": "Kronobergsg (på K-holms str)"
   },
   "740021661": {
-    "site_id": 9115,
-    "name": "Fridhemsplan"
-  },
-  "740045952": {
     "site_id": 1219,
     "name": "S:t Eriksgatan"
+  },
+  "740045952": {
+    "site_id": 1225,
+    "name": "Fleminggatan"
   },
   "740046075": {
     "site_id": 1225,
@@ -960,12 +960,12 @@
     "name": "Kronobergsg (på Hantverkarg)"
   },
   "740021662": {
-    "site_id": 1230,
-    "name": "Kellgrensgatan"
-  },
-  "740046098": {
     "site_id": 9307,
     "name": "Stadshagen"
+  },
+  "740046098": {
+    "site_id": 1230,
+    "name": "Kellgrensgatan"
   },
   "740046095": {
     "site_id": 1231,
@@ -1112,8 +1112,8 @@
     "name": "Flottbrovägen"
   },
   "740046212": {
-    "site_id": 1299,
-    "name": "Sofia"
+    "site_id": 1300,
+    "name": "Barnängen"
   },
   "740046233": {
     "site_id": 1299,
@@ -1172,8 +1172,8 @@
     "name": "Medborgarplatsen"
   },
   "740072465": {
-    "site_id": 9191,
-    "name": "Medborgarplatsen"
+    "site_id": 1315,
+    "name": "Björns trädgård"
   },
   "740046210": {
     "site_id": 1316,
@@ -1224,11 +1224,11 @@
     "name": "Fatbursgatan"
   },
   "740000765": {
-    "site_id": 1339,
+    "site_id": 9530,
     "name": "Södra station"
   },
   "740045463": {
-    "site_id": 9530,
+    "site_id": 1339,
     "name": "Södra station"
   },
   "740046084": {
@@ -1240,12 +1240,12 @@
     "name": "Slottsbacken"
   },
   "740021653": {
-    "site_id": 1345,
-    "name": "Mälartorget"
-  },
-  "740046085": {
     "site_id": 9193,
     "name": "Gamla stan"
+  },
+  "740046085": {
+    "site_id": 1345,
+    "name": "Mälartorget"
   },
   "740046086": {
     "site_id": 1346,
@@ -1348,12 +1348,12 @@
     "name": "Varvsgatan"
   },
   "740046155": {
-    "site_id": 1381,
-    "name": "Högalidsgatan"
-  },
-  "740046228": {
     "site_id": 1382,
     "name": "Långholmsgatan"
+  },
+  "740046228": {
+    "site_id": 1381,
+    "name": "Högalidsgatan"
   },
   "740046222": {
     "site_id": 1385,
@@ -1516,8 +1516,8 @@
     "name": "Kvarnholmen"
   },
   "740076480": {
-    "site_id": 1455,
-    "name": "Kvarnholmen"
+    "site_id": 1459,
+    "name": "Kvarnholmens Centrum"
   },
   "740046237": {
     "site_id": 1456,
@@ -1696,8 +1696,8 @@
     "name": "Sparrmansvägen"
   },
   "740021695": {
-    "site_id": 1565,
-    "name": "Finn Malmgrens plan"
+    "site_id": 9144,
+    "name": "Hammarbyhöjden"
   },
   "740065631": {
     "site_id": 1565,
@@ -1864,8 +1864,8 @@
     "name": "Hökmossen"
   },
   "740051243": {
-    "site_id": 1630,
-    "name": "Hökmossen"
+    "site_id": 1787,
+    "name": "Hökmossens gård"
   },
   "740065489": {
     "site_id": 1631,
@@ -2404,12 +2404,12 @@
     "name": "Ålgrytevägen"
   },
   "740021727": {
-    "site_id": 1796,
-    "name": "Vårbergs centrum"
-  },
-  "740045516": {
     "site_id": 9286,
     "name": "Vårberg"
+  },
+  "740045516": {
+    "site_id": 1796,
+    "name": "Vårbergs centrum"
   },
   "740069184": {
     "site_id": 1797,
@@ -2576,12 +2576,12 @@
     "name": "Sågverksgatan"
   },
   "740021699": {
-    "site_id": 1872,
-    "name": "Gubbängens centrum"
+    "site_id": 7956,
+    "name": "Gubbängen T-stn"
   },
   "740045473": {
-    "site_id": 9183,
-    "name": "Gubbängen"
+    "site_id": 1872,
+    "name": "Gubbängens centrum"
   },
   "740069566": {
     "site_id": 1873,
@@ -3284,8 +3284,8 @@
     "name": "Rudalid"
   },
   "740066129": {
-    "site_id": 2093,
-    "name": "Hustegaholm"
+    "site_id": 8939,
+    "name": "Hustegaholm café"
   },
   "740066130": {
     "site_id": 2093,
@@ -3404,8 +3404,8 @@
     "name": "Ekeby gård"
   },
   "740067450": {
-    "site_id": 2125,
-    "name": "Danderyds gymnasium"
+    "site_id": 2166,
+    "name": "Danderydsberg"
   },
   "740067529": {
     "site_id": 2125,
@@ -3564,12 +3564,12 @@
     "name": "Slottsvägen"
   },
   "740020869": {
-    "site_id": 2204,
-    "name": "Näsby slott"
-  },
-  "740045611": {
     "site_id": 9681,
     "name": "Näsby allé"
+  },
+  "740045611": {
+    "site_id": 2204,
+    "name": "Näsby slott"
   },
   "740067618": {
     "site_id": 2205,
@@ -3648,8 +3648,8 @@
     "name": "Viggbyskolan"
   },
   "740000779": {
-    "site_id": 9669,
-    "name": "Täby centrum"
+    "site_id": 2230,
+    "name": "Marknadsvägen"
   },
   "740072796": {
     "site_id": 2231,
@@ -4516,8 +4516,8 @@
     "name": "Söderbydal"
   },
   "740068602": {
-    "site_id": 9622,
-    "name": "Frösunda"
+    "site_id": 2560,
+    "name": "Stationsvägen"
   },
   "740024802": {
     "site_id": 9622,
@@ -5224,8 +5224,8 @@
     "name": "Joffsviken"
   },
   "740018092": {
-    "site_id": 2800,
-    "name": "Vaxholm"
+    "site_id": 2801,
+    "name": "Västerhamnsplan"
   },
   "740018045": {
     "site_id": 2801,
@@ -5756,16 +5756,16 @@
     "name": "Söderby nedre"
   },
   "740000690": {
-    "site_id": 3000,
-    "name": "Ekerö centrum"
-  },
-  "740065725": {
     "site_id": 3999,
     "name": "Centrumslingan"
   },
-  "740071794": {
+  "740065725": {
     "site_id": 3000,
     "name": "Ekerö centrum"
+  },
+  "740071794": {
+    "site_id": 3002,
+    "name": "Tappström"
   },
   "740065859": {
     "site_id": 3001,
@@ -6704,8 +6704,8 @@
     "name": "Björkvik"
   },
   "740000781": {
-    "site_id": 9508,
-    "name": "Ulriksdal"
+    "site_id": 3397,
+    "name": "Ulriksdals station östra"
   },
   "740001179": {
     "site_id": 3400,
@@ -6812,12 +6812,12 @@
     "name": "Ulriksdals begravningsplats"
   },
   "740021644": {
-    "site_id": 3430,
-    "name": "Bergshamra södra"
-  },
-  "740045770": {
     "site_id": 9202,
     "name": "Bergshamra"
+  },
+  "740045770": {
+    "site_id": 3430,
+    "name": "Bergshamra södra"
   },
   "740045576": {
     "site_id": 3431,
@@ -6960,8 +6960,8 @@
     "name": "Norra kapellet"
   },
   "740021642": {
-    "site_id": 9305,
-    "name": "Solna centrum"
+    "site_id": 9954,
+    "name": "Solna centrum (Närtrafiken)"
   },
   "740045585": {
     "site_id": 3472,
@@ -7036,16 +7036,16 @@
     "name": "Tomteboda postterminal"
   },
   "740021670": {
+    "site_id": 9327,
+    "name": "Huvudsta"
+  },
+  "740045582": {
     "site_id": 3490,
     "name": "Huvudsta centrum"
   },
-  "740045582": {
-    "site_id": 9327,
-    "name": "Huvudsta"
-  },
   "740045581": {
-    "site_id": 9327,
-    "name": "Huvudsta"
+    "site_id": 3537,
+    "name": "Huvudsta allé"
   },
   "740071134": {
     "site_id": 3491,
@@ -7360,8 +7360,8 @@
     "name": "Stora mossen"
   },
   "740046266": {
-    "site_id": 9111,
-    "name": "Stora mossen"
+    "site_id": 3623,
+    "name": "Ulvsundaplan"
   },
   "740047477": {
     "site_id": 3625,
@@ -7816,12 +7816,12 @@
     "name": "Tönsbergsgatan"
   },
   "740021676": {
-    "site_id": 3768,
-    "name": "Trondheimsgatan"
-  },
-  "740066950": {
     "site_id": 9301,
     "name": "Husby"
+  },
+  "740066950": {
+    "site_id": 3768,
+    "name": "Trondheimsgatan"
   },
   "740066949": {
     "site_id": 3769,
@@ -7872,12 +7872,12 @@
     "name": "Tensta allé"
   },
   "740021679": {
-    "site_id": 3783,
-    "name": "Rinkeby centrum"
-  },
-  "740045494": {
     "site_id": 9322,
     "name": "Rinkeby"
+  },
+  "740045494": {
+    "site_id": 3783,
+    "name": "Rinkeby centrum"
   },
   "740066966": {
     "site_id": 3784,
@@ -7888,12 +7888,12 @@
     "name": "Mjölbyplan"
   },
   "740012885": {
-    "site_id": 3786,
-    "name": "Tensta centrum"
-  },
-  "740045508": {
     "site_id": 9321,
     "name": "Tensta"
+  },
+  "740045508": {
+    "site_id": 3786,
+    "name": "Tensta centrum"
   },
   "740066964": {
     "site_id": 3787,
@@ -12944,8 +12944,8 @@
     "name": "Jakobsberg"
   },
   "740045348": {
-    "site_id": 9702,
-    "name": "Jakobsberg"
+    "site_id": 5873,
+    "name": "Jakobsbergs centrum"
   },
   "740045351": {
     "site_id": 5875,
@@ -12972,8 +12972,8 @@
     "name": "Jakobsbergs sjukhus"
   },
   "740032922": {
-    "site_id": 5881,
-    "name": "Jakobsbergs sjukhus"
+    "site_id": 5894,
+    "name": "Jakobsbergs sjukhus närtrafik"
   },
   "740067014": {
     "site_id": 5882,
@@ -13340,8 +13340,8 @@
     "name": "Knivsta Nova Park"
   },
   "740000559": {
-    "site_id": 6092,
-    "name": "Knivsta station"
+    "site_id": 6091,
+    "name": "Knivsta"
   },
   "740077225": {
     "site_id": 6093,
@@ -13984,8 +13984,8 @@
     "name": "Matsgården"
   },
   "740067904": {
-    "site_id": 6294,
-    "name": "Hysingsviks brygga"
+    "site_id": 6299,
+    "name": "Hysingsviks vägskäl"
   },
   "740067986": {
     "site_id": 6294,
@@ -16424,16 +16424,16 @@
     "name": "Södertörns högskola"
   },
   "740000031": {
-    "site_id": 7005,
-    "name": "Hälsovägen"
+    "site_id": 7006,
+    "name": "Flemingsbergs station"
   },
   "740045549": {
     "site_id": 7007,
     "name": "Flemingsbergs stn (Fjärrtåg)"
   },
   "740069192": {
-    "site_id": 7006,
-    "name": "Flemingsbergs station"
+    "site_id": 7005,
+    "name": "Hälsovägen"
   },
   "740069077": {
     "site_id": 7008,
@@ -17680,12 +17680,12 @@
     "name": "Alby IP"
   },
   "740021731": {
-    "site_id": 7364,
-    "name": "Alby centrum"
-  },
-  "740045528": {
     "site_id": 9282,
     "name": "Alby"
+  },
+  "740045528": {
+    "site_id": 7364,
+    "name": "Alby centrum"
   },
   "740069086": {
     "site_id": 7365,
@@ -17740,12 +17740,12 @@
     "name": "Tomtbergavägen"
   },
   "740021732": {
-    "site_id": 7380,
-    "name": "Hallunda centrum"
-  },
-  "740045530": {
     "site_id": 9281,
     "name": "Hallunda"
+  },
+  "740045530": {
+    "site_id": 7380,
+    "name": "Hallunda centrum"
   },
   "740068927": {
     "site_id": 7381,
@@ -19324,12 +19324,12 @@
     "name": "Servicehuset Postiljonen"
   },
   "740020656": {
-    "site_id": 7981,
-    "name": "Arninge"
-  },
-  "740076292": {
     "site_id": 7982,
     "name": "Arninge station"
+  },
+  "740076292": {
+    "site_id": 7981,
+    "name": "Arninge"
   },
   "740000778": {
     "site_id": 8000,
@@ -20252,12 +20252,12 @@
     "name": "Vattumannens gata"
   },
   "740000699": {
-    "site_id": 8280,
-    "name": "Handens station"
-  },
-  "740045881": {
     "site_id": 9730,
     "name": "Handen"
+  },
+  "740045881": {
+    "site_id": 8280,
+    "name": "Handens station"
   },
   "740069533": {
     "site_id": 8282,
@@ -21260,8 +21260,8 @@
     "name": "Nibble gård"
   },
   "740000790": {
-    "site_id": 9723,
-    "name": "Ösmo"
+    "site_id": 8649,
+    "name": "Ösmo station"
   },
   "740011972": {
     "site_id": 8650,
@@ -21856,8 +21856,8 @@
     "name": "Hammarbyhöjden"
   },
   "740065970": {
-    "site_id": 9144,
-    "name": "Hammarbyhöjden"
+    "site_id": 9773,
+    "name": "Hammarbyhöjdens servicehus"
   },
   "740021714": {
     "site_id": 9160,
@@ -21912,8 +21912,8 @@
     "name": "Farsta strandplan"
   },
   "740021698": {
-    "site_id": 9182,
-    "name": "Hökarängen"
+    "site_id": 9179,
+    "name": "Hökarängen T"
   },
   "740021696": {
     "site_id": 9180,
@@ -21972,16 +21972,16 @@
     "name": "Medborgarplatsen"
   },
   "740020101": {
-    "site_id": 9192,
-    "name": "Slussen"
+    "site_id": 9195,
+    "name": "Slussen/Södermalmstorg"
   },
   "740034486": {
     "site_id": 9192,
     "name": "Slussen"
   },
   "740077425": {
-    "site_id": 9192,
-    "name": "Slussen"
+    "site_id": 9194,
+    "name": "Slussen/Stadsgården"
   },
   "740000716": {
     "site_id": 9200,
@@ -22004,16 +22004,16 @@
     "name": "Universitetet"
   },
   "740020750": {
-    "site_id": 9600,
-    "name": "Östra station"
+    "site_id": 9204,
+    "name": "Tekniska högskolan"
   },
   "740021651": {
     "site_id": 9206,
     "name": "Östermalmstorg"
   },
   "740066162": {
-    "site_id": 9219,
-    "name": "Skärsätra"
+    "site_id": 9247,
+    "name": "Centralvägen"
   },
   "740023965": {
     "site_id": 9219,
@@ -22208,8 +22208,8 @@
     "name": "Rådhuset"
   },
   "740021678": {
-    "site_id": 9320,
-    "name": "Hjulsta"
+    "site_id": 9319,
+    "name": "Hjulsta torg"
   },
   "740045478": {
     "site_id": 9320,
@@ -22280,12 +22280,12 @@
     "name": "Saltsjö-Duvnäs"
   },
   "740024809": {
-    "site_id": 9427,
-    "name": "Storängen"
-  },
-  "740076731": {
     "site_id": 9450,
     "name": "Storängens station"
+  },
+  "740076731": {
+    "site_id": 9427,
+    "name": "Storängen"
   },
   "740024808": {
     "site_id": 9428,
@@ -22548,8 +22548,8 @@
     "name": "Åkersberga station"
   },
   "740035202": {
-    "site_id": 9982,
-    "name": "Åkersberga station"
+    "site_id": 9662,
+    "name": "Åkersberga"
   },
   "740023174": {
     "site_id": 9663,

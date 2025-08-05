@@ -31,9 +31,13 @@ with open("data/sl-transport-sites.json", "r", encoding="utf-8") as file:
     sites = json.load(file)
     sl_sites_with_duplicate_national_id = 0
     sl_sites_without_national_id = 0
+    sl_sites_without_unique_national_mapping = 0
+
+    sites_mapping_count = dict()
 
     for site in sites:
         national_id = -1
+        id = site["id"]
 
         # get the shortest name
         name = site["name"]
@@ -43,7 +47,7 @@ with open("data/sl-transport-sites.json", "r", encoding="utf-8") as file:
                     name = alias
 
         previous_national_ids = []
-        site_ids_already_linked = []
+        sites_mapping_count[id] = 0
 
         for area_id in site["stop_areas"]:
             # skip if its not connected to any national id
@@ -51,22 +55,33 @@ with open("data/sl-transport-sites.json", "r", encoding="utf-8") as file:
 
             national_id = national_ids_by_area_id[area_id]
 
-            if national_id not in stops_by_national_id or stops_by_national_id[national_id]["site_id"] in site_ids_already_linked:
-                # if the site occupying this national id is already linked to another national id, override it
-                stops_by_national_id[national_id] = {"site_id": site["id"], "name": name}
+            if national_id not in stops_by_national_id:
+                stops_by_national_id[national_id] = {"site_id": id, "name": name}
+                sites_mapping_count[id] += 1
             else:
-                site_ids_already_linked.append(stops_by_national_id[national_id]["site_id"])
-                #print("sl sites", site["id"], stops_by_national_id[national_id], "have same national id", national_id)
+                other_id = stops_by_national_id[national_id]["site_id"]
+
+                # if the site occupying this national id is already linked to another national id, override it
+                if id != other_id and sites_mapping_count[other_id] > 1:
+                    #print("overriding", stops_by_national_id[national_id], "with", {"site_id": id, "name": name})
+                    stops_by_national_id[national_id] = {"site_id": id, "name": name}
+                    sites_mapping_count[other_id] -= 1
+                    sites_mapping_count[id] += 1
+
+                #print("sl sites", id, stops_by_national_id[national_id], "have same national id", national_id)
                 sl_sites_with_duplicate_national_id += 1
 
         if national_id == -1:
-            #print("sl site", site["id"], "lacks national id")
+            print("sl site", id, "lacks national id")
             sl_sites_without_national_id += 1
-            continue
+        elif sites_mapping_count[id] == 0:
+            print("sl site", id, "couldnt find unique national id")
+            sl_sites_without_unique_national_mapping += 1
 
     print("sl sites:", len(sites))
     print("sl sites with duplicate national id:", sl_sites_with_duplicate_national_id)
     print("sl sites without national id:", sl_sites_without_national_id)
+    print("sl sites without unique national mapping:", sl_sites_without_unique_national_mapping)
     print("national sites with sl site id:", len(stops_by_national_id))
 
 
